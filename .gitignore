@@ -1,0 +1,30 @@
+# Environment and secrets
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Dependencies and package manager files
+**/node_modules/
+**/.pnp
+.pnp.*
+
+# Build artifacts
+**/target/
+**/.next/
+**/dist/
+**/build/
+**/out/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+.DS_Store
+Thumbs.db
+*.log
